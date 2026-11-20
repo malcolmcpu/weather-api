@@ -2,6 +2,8 @@
 
 A small web app that looks up the current weather for any city. Type a city name, click **Check Weather**, and the page shows the city, the country and the temperature in °F. It has an 8-bit pixel look, with an animated pixel sky as the background.
 
+[Visit Weather Checker](https://8bitweather.netlify.app/)
+
 ## ProjectPreview
 
 ![Weather Checker with No Entry](media/weather-noentry.png)
