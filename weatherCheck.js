@@ -13,7 +13,8 @@ function checkTheWeather() {
       console.log(data);
       document.querySelector('h2').innerText = data.location.name;
       document.querySelector('h3').innerText = data.location.country;
-      document.querySelector('h4').innerText = data.current.temp_f;
+      document.querySelector('h4').innerText =
+        `${data.current.temp_f}° Fahrenheit`;
     });
 }
 
