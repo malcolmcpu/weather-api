@@ -5,7 +5,7 @@ function checkTheWeather() {
   const city = document.querySelector('input').value;
   console.log(city);
 
-  let url = `http://api.weatherapi.com/v1/current.json?key=${myApiKey}&q=${city}&aqi=no`;
+  let url = `https://api.weatherapi.com/v1/current.json?key=${myApiKey}&q=${city}&aqi=no`;
 
   fetch(url)
     .then((response) => response.json())
